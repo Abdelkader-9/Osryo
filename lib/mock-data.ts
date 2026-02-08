@@ -1,5 +1,4 @@
 import { Service, CaseStudy, BlogPost, TeamMember, Lead, DashboardStats } from '../types/index';
-
 export const mockServices: Service[] = [
   {
     id: '1',
@@ -7,10 +6,9 @@ export const mockServices: Service[] = [
     description: 'Strategic brand positioning and identity',
     longDescription:
       'We help you define your brand identity, messaging, and positioning. Our comprehensive brand strategy process ensures your business stands out in a competitive market.',
-    icon: '🎨',
     category: 'Strategy',
     isVisible: true,
-    image: '/public/images/pexels-eva-bronzini-7661590.WEBP',
+    image: '/public/images/pexels-eva-bronzini-7661590.webp',
   },
   {
     id: '2',
@@ -18,10 +16,9 @@ export const mockServices: Service[] = [
     description: 'Modern, responsive website design',
     longDescription:
       'Custom website design that converts visitors into customers. We create beautiful, user-friendly experiences that reflect your brand values.',
-    icon: '💻',
     category: 'Design',
     isVisible: true,
-    image: '/public/images/pexels-davidebiza-11813187.WEBP',
+    image: '/public/images/pexels-davidebiza-11813187.webp',
   },
   {
     id: '3',
@@ -29,10 +26,9 @@ export const mockServices: Service[] = [
     description: 'Full-stack web application development',
     longDescription:
       'Scalable, robust web applications built with modern technologies. From frontend to backend, we deliver solutions that perform.',
-    icon: '⚙️',
     category: 'Development',
     isVisible: true,
-    image: '/public/images/pexels-fotios-photos-16129705.WEBP',
+    image: '/public/images/pexels-fotios-photos-16129705.webp',
   },
   {
     id: '4',
@@ -40,10 +36,9 @@ export const mockServices: Service[] = [
     description: 'SEO, SEM, and content marketing',
     longDescription:
       'Drive traffic and engagement through strategic digital marketing. We combine SEO, paid ads, and content to maximize your ROI.',
-    icon: '📊',
     category: 'Marketing',
     isVisible: true,
-    image: '/public/images/pexels-mikael-blomkvist-6476808.WEBP',
+    image: '/public/images/pexels-mikael-blomkvist-6476808.webp',
   },
 ];
 

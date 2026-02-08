@@ -5,7 +5,6 @@ export interface Service {
   name: string;
   description: string;
   longDescription: string;
-  icon: string;
   category: string;
   isVisible: boolean;
   image: string;
