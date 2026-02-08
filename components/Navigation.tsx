@@ -30,7 +30,7 @@ export function Navigation() {
               <Link
                 key={link.href}
                 href={link.href}
-                className="text-foreground hover:text-accent transition-colors text-sm font-medium"
+                className="text-foreground hover:opacity-80 transition-colors text-sm font-medium"
               >
                 {link.label}
               </Link>
