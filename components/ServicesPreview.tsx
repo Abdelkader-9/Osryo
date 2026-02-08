@@ -37,8 +37,7 @@ export function ServicesPreview() {
               key={service.id}
               className=" p-8 rounded-lg  border-border bg-card transition-colors hover:shadow-lg"
             >
-              <div className=" mb-4">
-                <Image src={service.image} alt={service.name} width={64} height={64} /></div>
+            <div className="text-4xl mb-4">{service.icon}</div>
               <h3 className="text-2xl font-bold text-primary mb-2">{service.name}</h3>
               <p className="text-muted-foreground mb-6">{service.description}</p>
               <Link

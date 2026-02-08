@@ -6,6 +6,7 @@ export interface Service {
   description: string;
   longDescription: string;
   category: string;
+  icon: string;
   isVisible: boolean;
   image: string;
 }
