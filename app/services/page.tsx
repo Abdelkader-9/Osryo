@@ -60,7 +60,20 @@ export default function ServicesPage() {
           </section>
         )}
 
-        <Cta/>
+     <section className="py-16 px-4 sm:px-6 lg:px-8 bg-accent rounded-lg ">
+          <div className="max-w-4xl mx-auto text-center">
+            <h2 className="text-4xl font-bold text-primary-foreground mb-6">Let's work together</h2>
+            <p className="text-lg text-muted-foreground mb-8">
+              Interested in learning more about how we can help your business?
+            </p>
+            <Link
+              href="/contact"
+              className="btn-secondary py-4"
+            >
+              Get in Touch
+            </Link>
+          </div>
+        </section>
       </main>
       <Footer />
     </>

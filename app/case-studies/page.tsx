@@ -6,7 +6,6 @@ import { Navigation } from '@/components/Navigation';
 import { Footer } from '@/components/Footer';
 import { CaseStudy } from '@/types/index';
 import { getCaseStudies } from '@/lib/api-service';
-import Cta from '@/components/Cta';
 
 export default function CaseStudiesPage() {
   const [caseStudies, setCaseStudies] = useState<CaseStudy[]>([]);
@@ -69,7 +68,18 @@ export default function CaseStudiesPage() {
           </section>
         )}
 
-        <Cta/>
+        <section className="py-16 px-4 sm:px-6 lg:px-8 bg-accent rounded-lg">
+          <div className="max-w-4xl mx-auto text-center">
+            <h2 className="text-4xl font-bold text-primary-foreground mb-6">Ready to be our next success story?</h2>
+            <p className="text-lg text-muted-foreground mb-8">Let's create something amazing together.</p>
+            <Link
+              href="/contact"
+              className="btn-secondary py-4"
+            >
+              Start Your Project
+            </Link>
+          </div>
+        </section>
       </main>
       <Footer />
     </>

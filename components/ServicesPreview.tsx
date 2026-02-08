@@ -39,7 +39,7 @@ export function ServicesPreview() {
             >
             <div className="text-4xl mb-4">{service.icon}</div>
               <h3 className="text-2xl font-bold text-primary mb-2">{service.name}</h3>
-              <p className="text-muted-foreground mb-6">{service.description}</p>
+              <p className="text-muted mb-6">{service.description}</p>
               <Link
                 href={`/services/${service.id}`}
                 className="text-muted hover:opacity-80 transition-opacity"

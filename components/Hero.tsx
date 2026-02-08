@@ -7,7 +7,7 @@ export function Hero() {
         <h1 className="text-5xl sm:text-6xl font-bold text-primary-foreground mb-6 leading-tight">
           Digital excellence starts here
         </h1>
-        <p className="text-xl text-muted-foreground mb-8 leading-relaxed max-w-2xl mx-auto">
+        <p className="text-xl text-muted mb-8 leading-relaxed max-w-2xl mx-auto">
           We create beautiful, functional digital experiences that drive real business results. From strategy to
           execution, we're your partner in growth.
         </p>

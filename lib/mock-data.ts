@@ -134,7 +134,7 @@ export const mockTeamMembers: TeamMember[] = [
     name: 'Alex Rivera',
     role: 'Founder & Creative Director',
     bio: 'Award-winning designer with 10+ years of experience in digital agencies.',
-    image: '/images/team-1.jpg',
+    image: '/images/pexels-not-my-real-name-2148486441-30196245.webp',
     email: 'alex@agency.com',
     social: {
       twitter: 'https://twitter.com',
@@ -147,7 +147,7 @@ export const mockTeamMembers: TeamMember[] = [
     name: 'Jordan Lee',
     role: 'Lead Developer',
     bio: 'Full-stack developer passionate about building scalable web applications.',
-    image: '/images/team-2.jpg',
+    image: '/images/pexels-tiger-lily-7109090.webp',
     email: 'jordan@agency.com',
     social: {
       github: 'https://github.com',
@@ -156,11 +156,11 @@ export const mockTeamMembers: TeamMember[] = [
   },
   {
     id: '3',
-    name: 'Maya Patel',
+    name: 'Jack Patel',
     role: 'UX/UI Designer',
     bio: 'Creative problem solver focused on user-centered design.',
-    image: '/images/team-3.jpg',
-    email: 'maya@agency.com',
+    image: '/images/pexels-lubomir-satko-14868412-12437056.webp',
+    email: 'jack@agency.com',
     social: {
       twitter: 'https://twitter.com',
       linkedin: 'https://linkedin.com',
@@ -171,7 +171,7 @@ export const mockTeamMembers: TeamMember[] = [
     name: 'Chris Thompson',
     role: 'Digital Marketing Specialist',
     bio: 'Data-driven marketer helping businesses grow online.',
-    image: '/images/team-4.jpg',
+    image: '/images/pexels-linkedin-2182970.webp',
     email: 'chris@agency.com',
     social: {
       linkedin: 'https://linkedin.com',
